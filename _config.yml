@@ -18,8 +18,8 @@ tagline:             기억보다 기록이 필요한 중년개발자
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  바라는게 항상 한템포 늦게 오는.
-  글쓰는 걸 좋아하고, 디자인과 개발을 좋아한다.
+  목공(Woodworking)과.
+  가족들을 위해 요리하는 것을 좋아한다.
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
@@ -45,10 +45,10 @@ google_fonts:        Lato
 
 # Set your Google Analytics id to receive `pageview` events.
 # To remove Google Anaylics from your page, remove the line below.
-google_analytics:    UA-92346434-1
+google_analytics:    UA-121347599-1
 
 # Setting a disqus shortname will enable the comment section on pages with `comments: true` in the front matter
-disqus_shortname:    isme2n
+disqus_shortname:    yorath
 
 # This text will appear in the footer of every page. Markdown enabled.
 copyright:           '&copy; 2017. by isme2n'
@@ -57,7 +57,7 @@ copyright:           '&copy; 2017. by isme2n'
 permalink:           pretty
 
 # Pagination configuration (used by the `blog` layout)
-paginate:            8
+paginate:            10
 paginate_path:       '/page-:num/'
 
 # If you are upgrading form a v5 verison of Hydejack, uncomment the two lines below,
