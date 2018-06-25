@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: Data
-slug: data
+title: Java & Spring
+slug: java
 category: devlog
 menu: false
-order: 2
+order: 1
 ---
