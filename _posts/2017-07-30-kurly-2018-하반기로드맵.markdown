@@ -65,3 +65,4 @@ comments: true
 	  - 재고수불 발생시 ERP 또는 회계시스템과의 연계
 
 - resources
+- 외부 솔루션: [QuickBooks](https://quickbooks.intuit.com/global/) 의 Inventory Management 서비스도 확인해볼 필요는 있을 듯.
