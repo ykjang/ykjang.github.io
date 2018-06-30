@@ -10,14 +10,11 @@ comments: true
 SpringBoot로 인해 확실히 기존의  Spring기반 웹어플리케이션 프로젝트를 셋업하는데 좀 더 편하고 빠르게 할 수 있게 된 것 같다.
 
 
-
 그 동안 많은 자바개발자들이 localhost로 'Hello, Java!' 를  한번 찍어보기 위해서 
 톰캣설치 및 설정등 상당히 준비작업들과 시행착오를 겪어야만 했었는데 SpringBoot가 나오면서 
 그런 부분들을 많이 해소해 준것 같다.
 
 이 글은 JetBrain의 IntelliJ IDE기반으로 작성된 글이다.
-
-
 
 ---
 
@@ -58,19 +55,18 @@ jar로 선택하고, 로컬개발 및 테스트를 하다가  나중에 배포�
 SpringBoot를 이용한  톰캣기반 웹프로젝트가 생성되었다.
 SpringBoot를 실행하기전에 만들어진 프로젝트의 구조를 잠시 살펴보자
 
-
 ### 프로젝트 소스 구성
 
 ---
 
 ![프로젝트 구조](https://monosnap.com/file/4ByYwlR1RZAfSG8fb6QZ5eIXxCCQ3O.png)
 
-- 메인클래스: SpringBootRestDemoApplication
-- 프로퍼티파일: application.properties 
-- 환경설정파일: pom.xml
+> 메인클래스: SpringBootRestDemoApplication   
+> 프로퍼티파일: application.properties   
+> 환경설정파일: pom.xml  
 
 스프링부트기반으로 프로젝트를 생성하게 되면
-기존의 전통적인 웹어플리케이션 방식에서 필수로 관리되어야 하는 톰캣설정 및 web.xml파일등은 
+기존의 전통적인 웹어플리케이션 방식에서 필수로 관리되어야 하는 톰캣설정 및 web.xml파일등은   
 스프링부트의 내부모듈에 의해서 구동시 자동설정된다. 
 
 
@@ -142,8 +138,9 @@ public class SpringbootRestDemoApplication {
 위의 어노테이션을 추가하고 다시 스프링부트를 구동하면, 정상적으로 SpringBoot 어플리케이션이 실행된다.
 ![](https://monosnap.com/file/pSUSLbRTwARYJ4K4QNpREcMl56k0D1.png) 
 
-> 나중에 기회가 되면 다룰 예정이지만, 스프링부트가 구동될때 출력되는 메세지는 스프릉부트 어플리케이션의 구조와 설정정보등의
-아주 중요한 정보들을 담고 있다. 
+> 나중에 기회가 되면 다룰 예정이지만   
+> 스프링부트가 구동될때 출력되는 메세지는 스프릉부트 어플리케이션의 구조와 설정정보등의   
+> 아주 중요한 정보들을 담고 있다. 
 
 브라우저를 열고 http://localhost:8080 을 입력하자. 참고로 톰캣의 포트는 기본적으로 8080으로 지정되고
 application.properties 파일에서 '변경 가능하다.
@@ -194,6 +191,8 @@ static 폴더 아래에 index.html 파일을 간단하게 만들고
 
 다시 http://localhost:8080 로 접근해 보면 웹페이지가 정상적으로 출력된다.
 이제 SpringBoot기반으로 웹어플리이케이션을 개발할 수 있는 기본적인 환경이 구성되었다.
+
+
 
 
 다음 포스트에는
