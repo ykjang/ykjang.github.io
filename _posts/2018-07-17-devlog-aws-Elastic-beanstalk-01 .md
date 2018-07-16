@@ -8,25 +8,28 @@ comments: true
 ---
 
 
-###| Elastic Beanstalk(이하 EB) 이란?
+### Elastic Beanstalk(이하 EB) 이란?
 > 빈스톡, 빈즈톡으로 발음.  
-> 어플리케이션 설정, 생성, 배포, 관리를 빠르고 간단하게 -> 코드 작성에만 집중.  
+> 어플리케이션 설정, 생성, 배포, 관리를 빠르고 간단하게 지원해주는 풀 코스 서비스 -> 개발자는  코드 작성에만 집중할 수 있도록.  
 > 여러 개발 플랫폼을 제공 -  Go, Java, .NET, Node.js, PHP, Python, and Ruby.  
-> 어플리케이션 배포 버전관리.    
+> 어플리케이션 배포버전 관리와 모니터링 구성 자동화.
+
+[What is AWS Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/Welcome.html)
+
+```text
+With Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without worrying about the infrastructure that runs those applications.    
+AWS Elastic Beanstalk reduces management complexity without restricting choice or control.    
+You simply upload your application, and Elastic Beanstalk automatically handles the details of capacity provisioning, load balancing, scaling, and application health monitoring.    
+Elastic Beanstalk uses highly reliable and scalable services that are available in the AWS Free Tier.
+```
 
 [영상링크]()
 
-###| 장점
 
 ---
 
-- 빠르고 간편한 어플리케이션 시작
-- 적절한 규모유지
-- 개발자 생산성 
-- 완벽한 리소스 제어
 
-
-한 마디로,
+**한 마디로,**
 
 > 웹어플리케이션 소프트웨어 구성,
 > 인스턴스(EC2) 구성,
@@ -39,9 +42,9 @@ comments: true
 다양한 개발 플랫폼을 기본으로 제공, 개발자가 서버의 구성부터 시작해서 JDK설치,  Apache(또는 Nginx), Tomcat 설치 및 연계,구성등에 신경 쓸 필요가 거의 없슴.
 
 
-###| 설치방법 및 사용법
-
 ---
+
+### 설치방법 및 사용법
 
 빈스톡을 사용하는 방법은 두가지.   
 
@@ -51,9 +54,11 @@ comments: true
 
 ***어플리케이션(application)을 만들고. 하위에 환경(environment)을 구성함 하나의 어플리케이션에 여러개의 개별 환경을 구성할 수 있음.***
 
-￼
-###| AWS(AWS Management Console) 관리콘솔을 이용한 EB구성
+
 ---
+￼
+### AWS(AWS Management Console) 관리콘솔을 이용한 EB구성
+
 
 1. AWS 콘솔 로그인
 2. Elastic Beanstalk 메뉴로 이동
@@ -62,10 +67,10 @@ comments: true
 5. 어플리케이션 소스 배포
 6. 확인
 
-
-
-###| AWS CLI(Command Line Interface) 를 이용한 EB구성
 ---
+
+### AWS CLI(Command Line Interface) 를 이용한 EB구성
+
 
 1. AWSEB CLI 설치
 2. AWS 접속정보 및 권한 설정
