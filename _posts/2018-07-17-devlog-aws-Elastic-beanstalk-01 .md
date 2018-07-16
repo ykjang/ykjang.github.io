@@ -1,4 +1,11 @@
-## AWS Elastic beanstalk 을 이용한 웹어플리케이션 구축 -1
+---
+layout: post
+title:  "[AWS] AWS Elastic beanstalk 을 이용한 웹어플리케이션 구축 - 1"
+subtitle:   ""
+categories: devlog
+tags: aws devops awseb eb elastic benastalk 빈스톡 빈즈톡
+comments: true
+---
 
 
 ###| Elastic Beanstalk(이하 EB) 이란?
