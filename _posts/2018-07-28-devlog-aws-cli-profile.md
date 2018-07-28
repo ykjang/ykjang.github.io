@@ -3,7 +3,7 @@ layout: post
 title:  "[AWS] AWS CLI(Command Line Interface) 구성"
 subtitle:   ""
 categories: devlog
-tags: aws devops cli profile configure
+tags: devops aws
 comments: true
 ---
 

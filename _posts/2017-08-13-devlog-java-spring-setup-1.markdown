@@ -3,7 +3,7 @@ layout: post
 title:  "[SpringBoot] SpringBoot 개발환경 구성 - 1"
 subtitle:   ""
 categories: devlog
-tags: java springboot
+tags: java
 comments: true
 ---
 

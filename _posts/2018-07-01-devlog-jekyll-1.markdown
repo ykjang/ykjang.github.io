@@ -3,7 +3,7 @@ layout: post
 title:  "[Jekyll] Jekyll 테마를 사용한 개발블로그 관리 - 1"
 subtitle:   "맥(Mac)에서의 Jekyll 개발환경 설정"
 categories: devlog
-tags: java jekyll brew
+tags: jekyll
 comments: true
 ---
 

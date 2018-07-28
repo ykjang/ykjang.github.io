@@ -4,5 +4,5 @@ title: Market Kurly
 slug: kurly
 category: doc
 menu: false
-order: 1
+order: 20
 ---

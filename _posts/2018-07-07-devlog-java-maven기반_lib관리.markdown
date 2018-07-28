@@ -3,7 +3,7 @@ layout: post
 title:  "[Java/Maven] Maven기반 빌드환경에서 로컬라이브러리 추가방법"
 subtitle:   "Maven기반 프로젝트 관리"
 categories: devlog
-tags: java maven library dependency
+tags: java
 comments: true
 ---
 
