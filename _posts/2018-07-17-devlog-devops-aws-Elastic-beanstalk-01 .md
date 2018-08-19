@@ -35,7 +35,7 @@ Elastic Beanstalk uses highly reliable and scalable services that are available 
 > 로드 밸런서 구성,
 > 업데이트 배포 및 버전 관리,
 > 모니터링 관리 설정   
-  
+
 > 모두를 빠르게 쉽게 만들어주는 플랫폼 서비스라고 보면 됨.
 
 - 다양한 개발 언어와 플랫폼을 기본으로 제공, 개발자가 서버의 구성부터 어플리케이션의 구성, 또 구성 이후의 업데이트 까지 프로비저닝을 해준다.
@@ -107,7 +107,6 @@ Elastic Beanstalk uses highly reliable and scalable services that are available 
 	7. 배포버전이 설정한 주기동안 보관되고 어플리케이션 버전관리에서 특정버전으로의 재배포가 바로 가능.
 6. 어플리케이션 확인
 
-
 ---
 
 ### AWS CLI(Command Line Interface) 를 이용한 EB구성
@@ -133,7 +132,7 @@ Elastic Beanstalk uses highly reliable and scalable services that are available 
 - 파이썬 설치
   - `$ curl -O https://bootstrap.pypa.io/get-pip.py`
   - `$ python3 get-pip.py --user`
-   
+  
 - eb 최신버전으로 업그레이드
   - `pip3 install awsebcli --upgrade --user`
 - eb 버전체크
@@ -143,9 +142,8 @@ Elastic Beanstalk uses highly reliable and scalable services that are available 
 여기까지 진행했으면 AWS EB CLI를 사용하기 위한 기본적인 준비가 완료됨.   
 아래의 참고문서를 참조할 것.
 
-         
 ---
-      
+
 #### 2. AWS 접속정보 및 권한 설정
 
 - CLI 접속을 위해 AWS 콘솔에서 계정생성 및 권한 부여 ( IAM )
@@ -181,7 +179,6 @@ aws_secret_access_key = USER_02_AWS_SECRET_ACCESS_KEY
 4. `$ echo "Hello World" > index.html`
 5. `$ eb create dev-env`
 6. `$ eb open`
-
 
 ---
 
