@@ -3,7 +3,7 @@ layout: post
 title:  "[Java/Spring] Spring 진영의 주요 Tech Trend  - 1"
 subtitle:   ""
 categories: devlog
-tags: java, spring, spring framework, spring boot, spring cloud, spring cloud dataflow
+tags: java, spring spring framework spring boot spring cloud spring cloud dataflow
 comments: true
 ---
 
