@@ -3,7 +3,7 @@ layout: post
 title:  "[Java/Spring] Spring 진영의 주요 Tech Trend  - 1"
 subtitle:   ""
 categories: devlog
-tags: java, spring spring framework spring boot spring cloud spring cloud dataflow
+tags: java spring spring framework spring boot spring cloud spring cloud dataflow
 comments: true
 ---
 
@@ -122,7 +122,6 @@ Release train contents:
 
   A lightweight event-driven microservices framework to quickly build applications that can connect to external systems. Simple declarative model to send and receive messages using Apache Kafka or RabbitMQ between Spring Boot apps.
 
-  
 
 스프링 클라우드 기반의 프로젝트를 생성하기 위해서는 기본적으로 아래의 라이브러리를 추가하면 된다.(Maven 기준)
 
